@@ -1,0 +1,28 @@
+.Social-contact {
+    /* border: 2px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social-icon img {
+    height: 50px;
+    transition: ease-in-out .2s;
+}
+
+.social-icon :hover {
+    transform: scale(1.1);
+    height: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+    .social-icon img {
+        height: 35px;
+    }
+}

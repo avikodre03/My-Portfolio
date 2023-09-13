@@ -1,0 +1,26 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.web-options{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 16px;
+ 
+}
+.web-options a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.web-options a svg{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+   
+}
+.web-options:last-child{
+    margin-right: 0;
+}

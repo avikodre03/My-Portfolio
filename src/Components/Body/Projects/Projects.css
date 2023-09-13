@@ -1,0 +1,11 @@
+.Projects{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.section-title{
+    font-size: 32px;
+    color: blue;
+    font-weight: 700;
+}

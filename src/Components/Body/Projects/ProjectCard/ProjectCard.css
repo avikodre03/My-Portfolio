@@ -1,0 +1,98 @@
+.project-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+    padding: 8px 0;
+    
+}
+.project-info{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.project-photo{
+    /* height: 250px; */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.571);
+    width: 40%;
+    cursor: pointer;
+    transition: ease-out .3s;
+}
+/* .project-photo:hover{
+    transform: scale(1.1);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.571);
+width: 45%;
+} */
+.project-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(83, 10, 10);
+}
+.project-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+.tag{
+    padding: 4px 8px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+.project-links{
+    display: flex;
+    margin-top: 8px;
+}
+.project-links a{
+    text-decoration: none;
+    color: black;
+}
+.host-link-button,
+.github-link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: aquamarine;
+    width: max-content;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: ease-in-out .4s;
+}
+.host-link-button:hover,
+.github-link-button:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.395);
+    transform: scale(1.03);
+}
+.host-link-button svg,
+.github-link-button svg{
+   margin-right: 4px;
+   display: flex;
+   align-items: center;
+}
+.project-about{
+    margin: 8px 0;
+    font-size: 16px;
+}
+@media only screen and (max-width: 720px){
+    .project-photo{
+        width: 70%;
+    }
+    .project-card{
+        flex-direction: column;
+      
+    }
+    .project-info{
+        margin-left: 0px;
+        margin: 12px 0;
+        
+        width: 100%;
+    }
+    .project-tags{
+        
+        max-width: 100%;
+        
+    }
+}

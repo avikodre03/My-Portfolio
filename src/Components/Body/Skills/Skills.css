@@ -1,0 +1,43 @@
+.skills-list {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px 0;
+    padding-bottom: 36px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+.icon:hover {
+    transform: scale(1.12);
+  
+}
+.icon i {
+    font-size: 56px;
+    margin-bottom: 4px;
+
+}
+
+.icon p {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.icon a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

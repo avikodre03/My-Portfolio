@@ -1,0 +1,39 @@
+.Header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+    flex: 1;
+}
+.logo{
+    font-size: 36px;
+    color: blueviolet;
+    font-weight: 800;
+}
+.rightSectionMenu{
+    display: flex;
+    flex: 1;
+    
+    justify-content: flex-end;
+}
+.menu-icon{
+    font-size: 28px;
+    color: red;
+    cursor: pointer;
+}
+.web-menu{
+    display: flex;
+}
+.mobile-menu{
+    display: none;
+}
+@media only screen and (max-width: 720px){
+    .web-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+}
